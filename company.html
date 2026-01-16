@@ -9,23 +9,18 @@
   </head>
   <body>
     <header class="site-header">
+      <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Toggle navigation" />
       <h1 class="brand">Furniture Design</h1>
-      <button
-        class="menu-toggle"
-        type="button"
-        aria-label="Toggle navigation"
-        aria-expanded="false"
-        aria-controls="site-menu"
-      >
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-      </button>
+      <label class="menu-button" for="menu-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
       <nav id="site-menu" class="nav-links" aria-label="Primary">
         <a href="index.html">PRODUCTS</a>
         <a href="index.html#footer">ABOUT</a>
         <a href="company.html">COMPANY</a>
-        <a href="index.html#footer">CONTACT</a>
+        <a href="mailto:info@furnituredesign.jp">CONTACT</a>
       </nav>
     </header>
 
@@ -86,6 +81,5 @@
       <p class="copyright">© Furniture Design</p>
     </footer>
 
-    <script src="script.js"></script>
   </body>
 </html>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Furniture Design</title>
+    <title>Furniture Design | Products</title>
     <link rel="icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -25,7 +25,7 @@
     </header>
 
     <main>
-      <section id="products" class="products">
+      <section class="products">
         <div class="product-grid">
           <article class="product-item">
             <a class="product-link" href="item1.html">
@@ -85,9 +85,11 @@
           </article>
         </div>
 
-        <div class="view-more">
-          <a href="products.html">View More</a>
-        </div>
+        <nav class="pagination" aria-label="Products pages">
+          <a class="is-active" href="products.html?page=1" aria-current="page">1</a>
+          <a href="products.html?page=2">2</a>
+          <a href="products.html?page=3">3</a>
+        </nav>
       </section>
     </main>
 
